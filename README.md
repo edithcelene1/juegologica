@@ -25,4 +25,27 @@ Este es un juego sencillo que se uso en contra la computadora
     else:
         print("¡Perdiste!")
   SI DESEAS SALIR (S/N)
-  N = SALIR 
+  N = SALIR
+
+
+  JUEGO ACTUALIZADO
+  PIEDRA PAPEL Y TIGERA
+  Este es un juego muy basico que se desarrollo en payton este juego deciende dos maneras al jugar tambien se lleva un registro de estadisticas para contabilizar la partida ganadas, pertidas y empatadas.
+  * Contra la computadora(individualmente)
+  * Multijugador (De dos usuarios)
+  Reglas del juego
+  Piedra gana a Tijera
+  Tijera gana a Papel
+  Papel gana a Piedra
+  Extructura del codigo
+  Si ambos jugadores eligen lo mismo, hay un empate
+  jugar_contra_computadora(): Modo individual y actualización de estadísticas
+  jugar_multijugador(): Permite dos jugadores humanos
+  ver_estadisticas(): Muestra jugadas, victorias, empates y derrotas
+  menu(): Interfaz de navegación por consola
+  Las librerias que se utilizaron _ import ramdon
+  Función utilizada:
+  random.choice(lista)....Devuelve un elemento aleatorio de una lista.
+  Funciones básicas de Python (input(), print())
+  Estructuras estándar como listas, diccionarios y condicionales (if, elif, else)
+  Si ya no deseas jugar aplastas el numeral 4 para salir y basicamente te dara gracias por jugar  
